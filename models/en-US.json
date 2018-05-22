@@ -1,0 +1,50 @@
+{
+  "interactionModel": {
+      "languageModel": {
+          "invocationName": "get my bus",
+          "intents": [
+              {
+                  "name": "GetAstros",
+                  "slots": [],
+                  "samples": [
+                      "how many people are in space",
+                      "how many people are in space now",
+                      "how many people are currently in space",
+                      "how many humans are in space",
+                      "how many humans are in space now",
+                      "how many humans are currently in space",
+                      "how many astronauts are in space",
+                      "how many astronauts are in space now",
+                      "how many astronauts are currently in space"
+                  ]
+              },
+              {
+                  "name": "AMAZON.StopIntent",
+                  "samples": []
+              },
+              {
+                  "name": "AMAZON.CancelIntent",
+                  "samples": []
+              },
+              {
+                  "name": "AMAZON.HelpIntent",
+                  "samples": []
+              },
+              {
+                  "name": "GetBusses",
+                  "slots": [],
+                  "samples": [
+                      "How many minutes until my bus is here",
+                      "How long until the next bus",
+                      "how long will the bus take ",
+                      "when is the next bus",
+                      "When is the next twenty five A",
+                      "when is the next bus to town",
+                      "when is the next bus to the city centre"
+                  ]
+              }
+          ],
+          "types": []
+      }
+  }
+}
