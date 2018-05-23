@@ -1,23 +1,8 @@
 {
   "interactionModel": {
       "languageModel": {
-          "invocationName": "get my bus",
+          "invocationName": "my bus checker",
           "intents": [
-              {
-                  "name": "GetAstros",
-                  "slots": [],
-                  "samples": [
-                      "how many people are in space",
-                      "how many people are in space now",
-                      "how many people are currently in space",
-                      "how many humans are in space",
-                      "how many humans are in space now",
-                      "how many humans are currently in space",
-                      "how many astronauts are in space",
-                      "how many astronauts are in space now",
-                      "how many astronauts are currently in space"
-                  ]
-              },
               {
                   "name": "AMAZON.StopIntent",
                   "samples": []
